@@ -220,7 +220,7 @@ async def main():
     include_list_file = 'config/include_list.txt'
 
     # 自定义排序顺序
-    custom_sort_order = ['🍄广东频道', '🍓央视频道', '🐧卫视频道', '🦄️港·澳·台', '🥝aktv', '直播']
+    custom_sort_order = [ '🍓央视频道', '🐧卫视频道']
 
     # 确保输出目录存在
     output_dir = os.path.dirname(output_m3u)
